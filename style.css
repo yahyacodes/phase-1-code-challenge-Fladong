@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Montserrat:wght@500&family=Sofia+Sans+Condensed&display=swap");
+
+​​​​​​* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+}
+
+.movies-list li {
+  list-style: none;
+}
+
+.card {
+  width: 80%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #cccccc, -5px -5px 15px #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.card button {
+  width: 20%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card img {
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-weight: bolder;
+}
+
+.card p {
+  font-weight: bolder;
+}
+
+.card span {
+  font-weight: normal;
+}
